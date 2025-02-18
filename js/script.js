@@ -10,3 +10,7 @@ const userName = "Олександро";
 const payMent = "500грн";
 console.log();
 alert(`Дякуємо ${userName} до сплати ${payMent}`);
+
+const email = "novosadnazar@icloud.com";
+const resultMail = email.includes("@");
+console.log(resultMail);
